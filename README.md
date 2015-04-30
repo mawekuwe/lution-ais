@@ -6,7 +6,7 @@ The Evo/Lution project is an effort to create a friendly, relaxed, user centric 
 ## Install
 
     $ pacman -Sy git
-    $ git clone git://github.com/EvoLutionLinux/lution-ais
+    $ git clone git://github.com/mawekuwe/lution-ais
     $ cd lution-ais && bash ./lution-ais
 
 #### What The Evo/Lution Linux Project Is About
