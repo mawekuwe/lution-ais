@@ -54,226 +54,227 @@ _LvmPartErrBody="\nIl n'y a aucune partition réalisable disponible pouvant êtr
 _LvmNameVgTitle=" LVM - Nom du groupe de volume "
 _LvmNameVgBody="\nEntrez le nom du groupe de volumes (VG) à créer.\n\nThe VG is the new 'virtual device / hard-disk' to create out of the partition(s) selected next.\n"
 
-_LvmNameVgErrTitle=" LVM - VG Name Error "
-_LvmNameVgErr="\nInvalid Name Entered. The Volume Group name may be alpha-numeric, but may not contain spaces, start with a '/', or already be in use.\n\n"
+_LvmNameVgErrTitle=" LVM - VG Erreur de nom "
+_LvmNameVgErr="\nNom indiqué est incorrecte. Le nom de groupe de volumes peut être alphanumérique, mais ne peut pas contenir d'espaces, ni commencer avec un '/', ou être déjà utilisé.\n\n"
 
 
-_LvmPvSelTitle=" LVM - Select Partitions "
-_LvmPvSelBody="\nSelect the partition(s) to use for the Physical Volume (PV).\n"
-_LvmPvCreateTitle=" LVM - Parition Added "
+_LvmPvSelTitle=" LVM - Sélectionner les Partitions "
+_LvmPvSelBody="\nSélectionnez la ou les partitions à utiliser pour le volume physique (PV).\n"
+_LvmPvCreateTitle=" LVM - Partition ajouté "
 
-_LvmPvConfTitle=" LVM - Create Volume Group "
-_LvmPvConfBody1="\nConfirm creation of Volume Group "
-_LvmPvConfBody2="with the following partitions:\n\n"
+_LvmPvConfTitle=" LVM - Créer un groupe de volumes "
+_LvmPvConfBody1="\nConfirmer la création du groupe de volumes "
+_LvmPvConfBody2="avec les partitions suivantes :\n\n"
 
 _LvmPvActTitle=" LVM - Creating VG "
 _LvmPvActBody1="\nCreating and activating Volume Group "
-_LvmPvActBody2="\n\nPlease wait...\n\n"
+_LvmPvActBody2="\n\nVeuillez patienter...\n\n"
 
-_LvmPvDoneTitle=" LVM - VG Created "
-_LvmPvDoneBody1="\nVolume Group "
-_LvmPvDoneBody2="has been created"
+_LvmPvDoneTitle=" LVM - VG créé "
+_LvmPvDoneBody1="\nGroupe de volumes "
+_LvmPvDoneBody2="a été créé"
 
-_LvmLvNumTitle=" LVM - Create Logical Volumes "
-_LvmLvNumBody1="\nEnter the number of Logical Volumes (LVs) to create in "
-_LvmLvNumBody2="Minimum is 1, maximum is 9.\n\nLVs are essentially partitions. The last (or only) LV will automatically use 100% of the remaining space in the Volume Group."
+_LvmLvNumTitle=" LVM - Créer les volumes logiques "
+_LvmLvNumBody1="\nEntrez le nombre de volumes logiques (LV) pour créer dans "
+_LvmLvNumBody2="Minimum 1, maximum est de 9.\n\nLVs sont essentiellement des partitions. Le dernier (ou seul) LV utilisera automatiquement 100% de l'espace restant dans le groupe de volumes."
 
-_LvmLvNumErrTitle=" LVM - LV Number Error "
-_LvmLvNumErrBody="\nInvalid Number entered. Minimum is 1, maximum is 9.\n\n"
+_LvmLvNumErrTitle=" LVM - LV Erreur de nombre "
+_LvmLvNumErrBody="\nNombre non valide entré. Minimum 1, maximum est de 9.\n\n"
 
-_LvmLvNameTitle=" LVM - Name LV " 
-_LvmLvNameBody1="\nEnter the name of the Logical Volume (LV) to create.\n\nThis is like setting a name / label for a partition.\n"
-_LvmLvNameBody2="\nNOTE: This LV will automatically use up all space remaining on the Volume Group"
+_LvmLvNameTitle=" LVM - Nom LV " 
+_LvmLvNameBody1="\nEntrez le nom du volume logique (LV) à créer.\n\nCeci est comme la création d'un nom / label pour une partition.\n"
+_LvmLvNameBody2="\nNOTE: Ce LV utilisera automatiquement tout l'espace restant sur le groupe de volumes"
 
-_LvmLvNameErrTitle=" LVM - Name LV Error "
-_LvmLvNameErrBody="\nInvalid Name Entered. The Logical Volume (LV) name may be alpha-numeric, but may not contain spaces or be preceeded with a '/'.\n\n"
+_LvmLvNameErrTitle=" LVM - Nom LV erreur "
+_LvmLvNameErrBody="\nNom indiqué est incorrecte. Le nom de de volumes logique (LV) peut être alphanumérique, mais ne peut pas contenir d'espaces ou être précédée par un '/'.\n\n"
 
-_LvmLvSizeTitle=" LVM - Set LV Size "
-_LvmLvSizeBody1="remaining"
-_LvmLvSizeBody2="\n\nEnter the size of the Logical Volume (LV) in Megabytes (M) or Gigabytes (G). For example, 100M will create a 100 Megabyte LV. 10G will create a 10 Gigabyte LV.\n"
+_LvmLvSizeTitle=" LVM - LV Réglage Taille "
+_LvmLvSizeBody1="restant"
+_LvmLvSizeBody2="\n\nEntrez la taille du volume logique (LV) en méga-octets (M) ou giga-octets (G). Par exemple, 100M créera un LV de 100 méga-octets. 10G créera un LV de 10 giga-octets.\n"
 
-_LvmLvSizeErrTitle=" LVM - Set LV Size Error "
-_LvmLvSizeErrBody="\nInvalid value Entered. A numeric value must be entered with an 'M' (Megabytes) or a 'G' (Gigabytes) at the end.\n\nExamples include, 100M, 10G, or 250M. The value may also not be equal to or greater than the remaining size of the VG.\n\n"
+_LvmLvSizeErrTitle=" LVM - LV Réglage Taille Erreur "
+_LvmLvSizeErrBody="\nValeur indiquée incorrecte. Une valeur numérique doit être entré avec un 'M' (méga-octets) ou un 'G' (giga-octets) à la fin.\n\nLes exemples incluent, 100M, 10G, ou 250M. La valeur ne peut également pas être égale ou supérieure à la taille restante du VG.\n\n"
 
-_LvmLvDoneTitle=" LVM - Logical Volume Created "
+_LvmLvDoneTitle=" LVM - Volumes logiques créés "
 
-_LvmCompTitle=" LVM - Process Complete "
-_LvmCompBody="\nDone! All Logical Volumes have been created for the Volume Group.\n\nDo you wish to view the new LVM scheme?\n\n"
+_LvmCompTitle=" LVM - Processus complet "
+_LvmCompBody="\nFait ! Tous les Volumes logiques ont été créés pour le groupe de volumes.\n\nVoulez-vous voir le nouveau plan LVM ?\n\n"
 
 
 # Show devices and partitions
-_DevShowTitle=" Devices / Partitions "
-_DevShowOpt="List Devices (optional)"
+_DevShowTitle=" Périphériques / Partitions "
+_DevShowOpt="Liste des périphériques (facultatifs)"
 
 # Check Evo Requirements and Identify System Type
-_ChkEvoTitle=" Checking Evo Requirements "
-_ChkEvoBody="\nChecking installer has been run as root and that there is an active internet connection. Please wait...\n\n"
+_ChkEvoTitle=" Vérification des exigences Evo "
+_ChkEvoBody="\nVérification de programme d'installation a été exécuté en tant que root et qu'il y a une connexion internet active. Veuillez patienter...\n\n"
 
-_RtFailTitle=" Root Failure "
-_RtFailBody="\nThe installer must be run as root. Exiting.\n\n"
+_RtFailTitle=" Échec des permissions "
+_RtFailBody="\nLe programme d'installation doit être exécuté en tant que root. Quitter.\n\n"
 
-_ConFailTitle=" Connection Failure "
-_ConFailBody="\nInternet connection test failed. Exiting.\n\n"
+_ConFailTitle=" Échec de connexion "
+_ConFailBody="\nÉchec du test de connexion Internet. Quitter.\n\n"
 
-_ReqMetTitle=" Requirements Met "
-_ReqMetBody="\nAll checks passed! \n\n"
+_ReqMetTitle=" Exigences satisfaites "
+_ReqMetBody="\nToutes les vérifications ont passé ! \n\n"
 
-_UefiDet="UEFI System Detected"
-_BiosDet="BIOS System Detected"
+_UefiDet="Système UEFI détecté"
+_BiosDet="BIOS système détecté"
 
 # Installer Mirrorlist
-_MirrorlistTitle=" Mirrorlist "
-_MirrorlistBody="\nThe mirrorlist contains server addresses used by pacman to install packages. They are accessed by pacman in the order listed.\n\n"
-_MirrorbyCountry="Generate list by Country"
-_MirrorEdit="Manually edit mirrorlist"
+_MirrorlistTitle=" Liste des mirroirs "
+_MirrorlistBody="\nLa liste des mirroirs contient des adresses de serveur utilisées par pacman pour installer des paquets. Ils sont accédés par pacman dans l'ordre énuméré.\n\n"
+_MirrorbyCountry="Générer la liste par pays"
+_MirrorEdit="Modifier manuellement la liste des mirroirs"
 
 # Generate Mirrorlist by country
-_MirrorCntryTitle=" Select Country "
-_MirrorCntryBody="\nA list of mirrors by the selected country will be generated.\n\nOnce reviewed, you can choose to use it or not."
-_MirrorGenTitle=" Generating Mirrorlist "
-_MirrorGenBody="\nGenerating a mirrorlist. Please wait... "
-_MirrorGenQ="Use generated mirrorlist for installer?"
-_MirrorGenDone="\nDone! Original Mirrorlist has been saved as:\n\n/etc/pacman.d/mirrorlist.orig\n\n"
+_MirrorCntryTitle=" Sélectionnez un Pays "
+_MirrorCntryBody="\nUne liste des miroirs par le pays choisi sera généré.\n\nUne fois examinée, vous pouvez choisir d'utiliser ou non."
+_MirrorGenTitle=" Générer liste des miroirs "
+_MirrorGenBody="\nGénération de la liste des miroirs. Veuillez patienter... "
+_MirrorGenQ="Utiliser la liste des mirrors générée pour installer ?"
+_MirrorGenDone="\nFait! La liste originale des mirrors a été enregistrée sous :\n\n/etc/pacman.d/mirrorlist.orig\n\n"
 
 # Set Keymap (vconsole)
-_KeymapTitle=" Select Keymap "
-_KeymapBody="\nUse the [pg up] and [pg dwn] keys for navigation, or press the first letter of the keymap if known."
+_KeymapTitle=" Sélectionnez Mappage des touches (Keymap) "
+_KeymapBody="\nUtilisez la touche [pgup] et [pgdwn] pour la navigation, ou appuyez sur la première lettre du mappage des touches si connu."
 
 # Set Xkbmap (environment)
-_XkbmapTitle=" Select xkbmap "
-_XkbmapBody="Select Keyboard Layout"
+_XkbmapTitle=" Sélectionnez xkbmap "
+_XkbmapBody="Sélectionnez la configuration du clavier"
 
 # Set Locale
-_LocateTitle=" Select locale "
-_localeBody="Select A Locale"
+_LocateTitle=" Sélectionnez les paramètres régionaux "
+_localeBody="Sélectionnez un paramètre régional"
 
 # Set Timezone
-_TimeZTitle=" Select Time Zone "
-_TimeZBody="\nThe time zone is used to correctly set your system clock."
-_TimeSubZTitle=" Select Time Sub-Zone "
-_TimeSubZBody="\nSelect the city nearest to you."
-_TimeZQ="Set Time Zone as"
+_TimeZTitle=" Sélectionnez Fuseau horaire "
+_TimeZBody="\nLe fuseau horaire est utilisé pour correctement régler votre horloge système."
+_TimeSubZTitle=" Sélectionnez la sous-zone de temps "
+_TimeSubZBody="\nSélectionnez la ville la plus près de chez vous."
+_TimeZQ="Définir le fuseau horaire comme"
 
 # Set Hardware Clock
-_HwCTitle=" Set Hardware Clock "
-_HwCBody="\nUTC is the universal time standard, and is recommended unless dual-booting with Windows."
+_HwCTitle=" Réglez l'horloge matérielle "
+_HwCBody="\nL'UTC est l'heure universelle standard, et est recommandé à moins d'un double amorçage avec Windows."
 _HwCUTC="UTC"
-_HwLocal="Local Time" 
+_HwLocal="Heure locale" 
 
 # Generate FSTAB
-_FstabTitle=" Generate FSTAB "
-_FstabBody="\nThe FSTAB file (File System TABle) sets what storage devices and partitions are to be mounted, and how they are to be used.\n\nUUID/PARTUUID (Universally Unique IDentifier) is recommended.\n\nIf no labels were set for the partitions earlier, device names will be used for the label option."
+_FstabTitle=" Générer FSTAB "
+_FstabBody="\nLe fichier FSTAB (File System TABle) définit les périphériques de stockage et les partitions qui doivent à être montés, et comment doivent être utilisés.\n\nUUID/PARTUUID (Universally Unique IDentifier) est recommandé.\n\nSi aucune étiquette n'a été fixé pour les partitions précédemment, les noms de périphériques sera utilisé pour l'étiquette option."
 _FstabDev="Dev (partition code)"
-_FstabLabel="Label (user defined)"
-_FstabUUID="UUID/PARTUUID (unique code)"
+_FstabLabel="Étiquette (définie par l'utilisateur)"
+_FstabUUID="UUID/PARTUUID (code unique)"
 
 # Check FSTAB
-_FstabChkTitle=" Check FSTAB "
-_FstabChkBody="\nPlease check the FSTAB file, before closing it to continue.\n\n"
+_FstabChkTitle=" Vérifier la FSTAB "
+_FstabChkBody="\nVeuillez vérifier le fichier FSTAB, avant de clôturer afin de poursuivre.\n\n"
 
 # Set Hostname
-_HostNameTitle=" Configure Host Name "
-_HostNameBody="\nThe host name is used to identify the system on a network.\n\nIt is restricted to alphanumeric characters, can contain a hyphen (-) - but not at the start or end - and must be no longer than 63 characters.\n"
+_HostNameTitle=" Configurer le nom d'hôte "
+_HostNameBody="\nLe nom d'hôte est utilisé pour identifier le système sur un réseau.\n\nIl est restreint aux caractères alphanumériques, pouvant contenir un trait d'union (-) - mais pas au début ou à la fin - et ne doit pas dépasser 63 caractères.\n"
 
 # Set Root Password
-_PassRtTitle=" Set Root Password "
-_PassRtBody="\nEnter Root password\n\n"
-_PassRtBody2="\nRe-enter Root password\n\n"
+_PassRtTitle=" Définir le mot de passe root "
+_PassRtBody="\nEntrez le mot de passe root\n\n"
+_PassRtBody2="\nRe-entrer le mot de passe root\n\n"
 
 # Root Password Error
-_PassRtErrTitle=" Root Password Error "
-_PassRtErrBody="\nThe Root passwords entered do not match. Please try again.\n\n"
+_PassRtErrTitle=" Mot de passe root erreur "
+_PassRtErrBody="\nLes mots de passe Root entrés ne correspondent pas. Veuillez réessayer.\n\n"
 
 # Create New User
-_NUsrTitle=" Create New User "
-_NUsrBody="\nEnter the user name. Letters MUST be lower case.\n"
+_NUsrTitle=" Créer un nouvel utilisateur "
+_NUsrBody="\nEntrez le nom d'utilisateur. Les lettres doivent être en minuscules.\n"
 
 # Username Error
-_NUsrErrTitle=" User Name Error "
-_NUsrErrBody="\nAn incorrect user name was entered. Please try again.\n\n"
+_NUsrErrTitle=" Nom d'utilisateur Erreur "
+_NUsrErrBody="\nUn nom d'utilisateur incorrect a été entré. Veuillez réessayer.\n\n"
 
 # Set User Password
-_PassNUsrTitle=" Set User Password "
-_PassNUsrBody="\nEnter password for" 
-_PassNUsrBody2="\nRe-enter password for"
+_PassNUsrTitle=" Définir le mot de passe utilisateur "
+_PassNUsrBody="\nEntrez le mot de passe pour" 
+_PassNUsrBody2="\nEntrez de nouveau le mot de passe pour"
 
 # Create New User
-_NUsrSetTitle=" Setting User "
-_NUsrSetBody="\nCreating User and setting groups...\n\n"
+_NUsrSetTitle=" Réglage de l'utilisateur "
+_NUsrSetBody="\nCréation d'utilisateur et réglage des groupes...\n\n"
 
 # User Password Error
-_PassNUsrErrTitle=" User Password Error "
-_PassNUsrErrBody="\nThe User passwords entered do not match. Please try again.\n\n"
+_PassNUsrErrTitle=" Erreur de mot de passe d'utilisateur "
+_PassNUsrErrBody="\nLes mots de passe entrés ne correspondent pas. Veuillez réessayer.\n\n"
 
 # Mounting (Partitions)
-_MntStatusTitle=" Mount Status "
-_MntStatusSucc="\nMount Successful!\n\n"
-_MntStatusFail="\nMount Failed!\n\n"
+_MntStatusTitle=" L'état de montage "
+_MntStatusSucc="\nMontage réussie !\n\n"
+_MntStatusFail="\nÉchec du montage !\n\n"
 
-# Select Device (installation)
-_DevSelTitle=" Select Device "
-_DevSelBody="\nDevices (/dev) are available hard-disks and USB-sticks to install on. The first is /sda, the second /sdb, and so on.\n\nWhere using a USB-stick to boot Evo, be careful as it will also be listed!"
+# Select Device (installation) # Translation check needed
+_DevSelTitle=" Sélectionnez le périphérique "
+_DevSelBody="\n (/dev)Devices are available hard-disks and USB-sticks to install on. The first is /sda, the second /sdb, and so on.\n\nWhere using a USB-stick to boot Evo, be careful as it will also be listed!"
+
 
 # Select Device (Grub) - seperate body text is not required (uses standard device selection text)
-_DevSelGrubTitle=" Select Grub Device "
+_DevSelGrubTitle=" Sélectionnez Périphérique de Grub "
 
 
 # Partitioning Tool
-_PartToolTitle=" Partitioning Tool "
-_PartToolBody="\nGParted is a recommended user-friendly graphical tool that supports both BIOS and UEFI systems.\n\nDO NOT select a UEFI/GPT-only partitioning tool for a BIOS/MBR system as this could cause serious problems, including an unbootable installation."
+_PartToolTitle=" Outil de partitionnement "
+_PartToolBody="\nGParted est un l'outil graphique et convivial recommandé qui prend en charge les systèmes BIOS et UEFI.\n\nNE PAS sélectionner un outil de partitionnement UEFI/GPT seulement pour un système BIOS/MBR car cela pourrait causer de sérieux problèmes, y compris l'impossibilité d'amorçer un système déjà installé."
 
 # UEFI Partitioning Error
-_UefiPartErrTitle=" UEFI Partitioning Error " 
-_UefiPartErrBody="\nUEFI systems require a minimum of two partitions for installation (ROOT and UEFI).\n\nPlease configure your partitions.\n\n"
+_UefiPartErrTitle=" Erreur de partitionnement UEFI " 
+_UefiPartErrBody="\nSystèmes UEFI nécessitent un minimum de deux partitions d'installation (Racine et UEFI).\n\nVeuillez configurer vos partitions.\n\n"
 
 # BIOS Partitioning Error
-_BiosPartErrTitle=" BIOS Partitioning Error "
-_BiosPartErrBody="\nBIOS systems require a minmum of one partition for installation (ROOT).\n\nPlease configure your partitions."
+_BiosPartErrTitle=" Partitionnement erreur du BIOS "
+_BiosPartErrBody="\nLes systèmes BIOS demandent un minmum d'une partition pour l'installation (Racine).\n\nVeuillez configurer vos partitions."
 
 # File System
-_FSTitle=" Choose Filesystem "
-_FSBody="\nExt4 is recommended. Not all filesystems are viable for Root or Boot partitions. All have different features and limitations."
-_FSSkip="Skip / None" 
+_FSTitle=" Choisissez le système de fichiers "
+_FSBody="\nExt4 est recommandé. Tous les systèmes de fichiers ne sont pas viables pour la partition racine ou de démarrage. Tous ont des caractéristiques différentes et des limitations."
+_FSSkip="Passer / Aucun" 
 
 # Select Root
-_SelRootTitle=" Select ROOT Partition "
-_SelRootBody="\nThis is the partition where Arch will be installed."
+_SelRootTitle=" Sélectionnez Partition racine "
+_SelRootBody="\nC'est la partition où Arch sera installé."
 
 # Select SWAP
-_SelSwpTitle=" Select SWAP Partition "
-_SelSwpBody="\nIf using a Swapfile, it will be the same size as your RAM."
-_SelSwpNone="None"
-_SelSwpFile="Swapfile"
+_SelSwpTitle=" Sélectionnez Partition de swap "
+_SelSwpBody="\nSi vous utilisez un fichier d'échange, il sera de la même taille que votre RAM."
+_SelSwpNone="Aucun"
+_SelSwpFile="Fichier d'échange"
 
 # Select UEFI
-_SelUefiTitle=" Select UEFI Partition "
-_SelUefiBody="\nThis is a special partition for booting UEFI systems."
+_SelUefiTitle=" Sélectionnez la Partition système UEFI "
+_SelUefiBody="\nIl s'agit d'une partition spéciale pour amorcer les systèmes UEFI."
 
 # Format UEFI
-_FormUefiTitle=" UEFI Partition "
-_FormUefiBody="The UEFI partition"
-_FormUefiBody2="has already been formatted.\n\nReformat? Doing so will erase ALL data already on that partition.\n\n"
+_FormUefiTitle=" Partition système UEFI "
+_FormUefiBody="La partition système UEFI"
+_FormUefiBody2="a déjà été formaté.\n\nReformater ? Cela effacera toutes les données déjà présentes sur cette partition.\n\n"
 
 # UEFI Options
-_OptUefiTitle=" UEFI Mountpoint Options "
-_OptUefiBody="\nThe bootloader(s) that can be installed later will depend on where the UEFI partition is mounted.\n\n- Grub2 has no UEFI mount preference.\n- Gummiboot (recommended) requires mount at /boot.\n- rEFInd requires mount at /boot/efi.\n\nNOTE: rEFInd with LVM is not supported, and installations must be updated manually. rEFInd is therefore recommended for experienced users.\n"
+_OptUefiTitle=" Options de point de montage UEFI "
+_OptUefiBody="\nLe chargeur de démarrage qui peut être installé plus tard dépendra de l'endroit où la partition UEFI est monté.\n\n- Grub2 n'a aucune préférence de point de montage pour UEFI.\n- Gummiboot (recommandé) nécessite le montage sur /boot.\n- rEFInd nécessite le montage sur /boot/efi.\n\nNOTE: rEFInd avec LVM n'est pas pris en charge, et les installations doivent être mises à jour manuellement. rEFInd est donc recommandé pour les utilisateurs expérimentés.\n"
 
 # UEFI Mountpoint
-_MntUefiTitle=" Select UEFI Mountpoint "
-_MntUefiBody="\nGummiboot (recommended) requires /boot, rEFInd requires /boot/efi, and Grub will work with either."
+_MntUefiTitle=" Sélectionnez le point de montage UEFI "
+_MntUefiBody="\nGummiboot (recommandé) nécessite /boot, rEFInd nécessite /boot/efi et Grub fonctionnera avec l'un ou l'autre."
 
 # Extra Partitions
-_ExtPartTitle=" Select Additional Partition "
-_ExtPartBody="\nSelect additional partitions in any order, or 'Done' to finish."
+_ExtPartTitle=" Sélectionnez la Partition supplémentaire "
+_ExtPartBody="\nSélectionnez les partitions supplémentaires dans n'importe quel ordre, ou 'Terminer' pour finir."
 
 # Name Extra Partitions
-_ExtNameTitle=" Name Partition:"
-_ExtNameBodyUefi="\nExamples include: /home or /var.\n\nEnsure the name is preceeded by a forward slash (/)."  # UEFI Systems
-_ExtNameBodyBios="\nExamples include: /boot or /home.\n\nEnsure the name is preceeded by a forward slash (/)." # BIOS Systems
+_ExtNameTitle=" Nom partition :"
+_ExtNameBodyUefi="\nExemples incluent : /home ou /var.\n\nAssurez-vous que le nom est précédé par une barre oblique (/)."  # UEFI Systems
+_ExtNameBodyBios="\nExemples incluent : /boot ou /home.\n\nAssurez-vous que le nom est précédé par une barre oblique (/)." # BIOS Systems
 
 # Extra Partition Naming Error
-_ExtErrTitle=" Partition Name Error "
-_ExtErrBody="\nPartition cannot be mounted. A name must be given after a forward slash.\n\n"
+_ExtErrTitle=" Erreur de nom de partition "
+_ExtErrBody="\nLa partition ne peut être montée. Un nom doit être donné après la barre oblique.\n\n"
 
 # Install Base
 _InstBseTitle=" Install Base "
